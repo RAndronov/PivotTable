@@ -1,24 +1,33 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 11
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PivotTable", "PivotTable\PivotTable.csproj", "{05EFBF86-3CED-4732-A878-59B83B38BBE6}"
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PivotTable", "PivotTable\PivotTable.csproj", "{EC1489A5-B58F-4FD4-91FB-58E914F7A93D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{3DE2C20F-5D07-45A7-87A0-D6AE9361ACE9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{1E3CFD4A-7EF1-4F6D-8841-A6885AFD4A5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{66AE39B3-BD49-4397-A1E4-CDDE8B5264D8}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		PivotTable.vsmdi = PivotTable.vsmdi
+	EndProjectSection
 EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = PivotTable.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{05EFBF86-3CED-4732-A878-59B83B38BBE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{05EFBF86-3CED-4732-A878-59B83B38BBE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{05EFBF86-3CED-4732-A878-59B83B38BBE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{05EFBF86-3CED-4732-A878-59B83B38BBE6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3DE2C20F-5D07-45A7-87A0-D6AE9361ACE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3DE2C20F-5D07-45A7-87A0-D6AE9361ACE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3DE2C20F-5D07-45A7-87A0-D6AE9361ACE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3DE2C20F-5D07-45A7-87A0-D6AE9361ACE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC1489A5-B58F-4FD4-91FB-58E914F7A93D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC1489A5-B58F-4FD4-91FB-58E914F7A93D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC1489A5-B58F-4FD4-91FB-58E914F7A93D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC1489A5-B58F-4FD4-91FB-58E914F7A93D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E3CFD4A-7EF1-4F6D-8841-A6885AFD4A5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E3CFD4A-7EF1-4F6D-8841-A6885AFD4A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E3CFD4A-7EF1-4F6D-8841-A6885AFD4A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E3CFD4A-7EF1-4F6D-8841-A6885AFD4A5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

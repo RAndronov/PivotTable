@@ -10,11 +10,11 @@ namespace CrossTab
 
         public static object Sum(ArrayList set)
         {
-            dynamic ret = 0;
+            double ret = 0.0;
 
-            foreach (dynamic t in set)
+            foreach (object t in set)
             {
-                ret = ret + t;
+                ret = ret + Convert.ToDouble(t);
             }
 
             return (object)ret; 
@@ -22,7 +22,7 @@ namespace CrossTab
 
         public static object Average(ArrayList set)
         {
-            dynamic d = Sum(set);
+            double d = (double)Sum(set);
             return (object) (d / set.Count);
         }
 
